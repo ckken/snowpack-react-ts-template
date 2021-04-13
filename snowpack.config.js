@@ -7,9 +7,15 @@ module.exports = {
   packageOptions: {
     source: 'remote',
     types: true,
+    cache: '.snowpack',
   },
   mount: {
-    src: '/dist',
+    src: '/src',
     public: '/',
+  },
+  buildOptions: {
+    out: 'dist',
+    metaUrlPath: 'lib',
+    // baseUrl: 'http://127.0.0.1:8080/',
   },
 }
