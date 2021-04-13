@@ -1,0 +1,11 @@
+{
+    "extends": "@efox/emp-tsconfig",
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {"*": [".snowpack/.snowpack/types/*"]},
+    },
+    "include": [
+      "src",
+    ]
+  }
+  
