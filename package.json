@@ -17,8 +17,10 @@
     "@efox/eslint-config-react-prittier-ts": "^1.2.5",
     "@snowpack/plugin-react-refresh": "^2.4.2",
     "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "husky": "4.3.8",
-    "snowpack": "^3.3.0-pre.1",
+    "snowpack": "^3.3.0",
     "typescript": "^4.2.4"
   },
   "husky": {
@@ -35,9 +37,5 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   }
 }

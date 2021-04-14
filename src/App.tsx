@@ -19,7 +19,7 @@ function App({}: any) {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <p>
-          Page has been open for <code>{count}</code> seconds.
+          Page has been open for <code>{count}</code> seconds.!!
         </p>
       </header>
     </div>

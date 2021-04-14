@@ -5,7 +5,7 @@ module.exports = {
     // '@snowpack/plugin-typescript',
   ],
   packageOptions: {
-    source: 'remote-next',
+    source:'remote-next',
     types: true,
     cache: '.snowpack',
   },
